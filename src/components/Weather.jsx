@@ -25,7 +25,7 @@ export default function Weather() {
   }
 
   function getInputValue(e) {
-    setInputValue(e.target.value)
+    setInputValue(e.target.value.trim())
   }
 
   function handler(e) {
